@@ -1,0 +1,399 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  align-items: center;
+  background: rgba(229, 101, 152, 1);
+  padding: 15px 30px;
+  border-radius: 90px;
+   transform: scale(0.75)
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.hat {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  gap: 25px;
+  padding-top: 0.9%;
+}
+.navigation img {
+  width: 22%;
+  height: 22%;
+}
+
+.navigation {
+  display: flex;
+  width: 98%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 780px;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(245, 170, 203, 1);
+  border-radius: 80px;
+}
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgba(206, 39, 105, 1);
+  font-family: 'Comfortaa';
+  font-size: 30px;
+}
+
+.actions button {
+  margin-left: 5px;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  width: 75%;
+}
+
+.actions {
+  display: flex;
+  width: 98%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.actions input {
+  background: rgba white;
+  font-family: 'Comfortaa';
+  font-size: 30px;
+  color: rgba(229, 101, 152, 1);
+  width: 73%;
+  height: 60px;
+  border-radius: 90px;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.icons {
+  display: flex;
+  width: 23%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+.products h2 {
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  margin: 30px;
+  color: palevioletred;
+  font-family: 'a_FuturaRound';
+  font-size: 30px;
+}
+.products p {
+  color: rgba(65, 65, 65, 1);
+  font-family: 'Comfortaa';
+  font-size: 16px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.catalogue {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.catalog {
+  display: flex;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1400px;
+}
+
+.filters {
+  width: 280px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.filters-header h3 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color:rgba(229, 101, 152, 1);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.reset-filters {
+  background: none;
+  border: none;
+  color: #ec407a;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.filter-group {
+  margin-bottom: 25px;
+}
+
+.filter-group h4 {
+  font-family: 'a_FuturaRound';
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.price-inputs input {
+  width: 100px;
+  padding: 8px 10px;
+  background-color: rgba(217, 217, 217, 1);
+  border: 0px;
+  border-radius: 30px;
+  font-family: 'Comfortaa';
+  font-size: 14px;
+  text-align: center;
+}
+
+.slider img {
+  max-width: 285px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 15px;
+  color: #555;
+  cursor: pointer;
+}
+
+.checkbox input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #ec407a;
+}
+
+/* Основная часть с товарами */
+.products-container {
+  flex: 1;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.products-header h2 {
+  font-family: 'a_FuturaRound', sans-serif;
+  font-size: 32px;
+  color: #ec407a;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 16px;
+  color: #555;
+}
+
+.sort select {
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  background: white;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 40px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.card{
+  width: 100%;
+  margin: 0 auto
+}
+.card img {
+  width: 100%;
+  width: 280px;
+  height: 340px;
+  border-radius: 15px;
+}
+
+.card h3 {
+  color: rgba(206, 39, 105, 1);
+  font-family: 'a_FuturaRound';
+  font-size: 20px;
+  width: 75%;
+  margin-bottom: 0px;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-family: 'Comfortaa';
+  font-size: 25px;
+}
+
+.card button {
+  background: rgba(229, 101, 152, 1);
+  width: 170px;
+  height: 51px;
+  stroke: none;
+  border: none;
+  border-radius: 90px;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+  font-family: 'a_FuturaRound';
+  font-size: 20px
+}
+
+.footer {
+  display: flex;
+  justify-content: column;
+  width: 94%;
+  gap: 150px;
+  height: 300px;
+  padding: 15px 30px;
+  border-radius: 77px;
+  margin-left: 13px;
+  margin-top: 50px;
+  transform: scale(0.75);
+  background: rgba(245, 170, 203, 1);
+  color: rgba(65, 65, 65, 1);
+  font-family: 'Comfortaa';
+  font-size: 24px;
+}
+.public {
+  display: flex;
+  justify-content: space-between;
+  width: 185px;
+  height: 120px;
+
+}
+.public img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 240px;
+  color: white;
+  font-family: 'a_FuturaRound';
+}
+
+.company {
+  margin-top: 20px;
+  width: 150px;
+}
+
+.company img {
+  width: 250px;
+}
+
+.customers {
+  margin-top: 20px;
+  width: 350px;
+}
+
+.customers img {
+  width: 250px;
+}
+
+.company p{
+  padding-left: 13%;
+  margin: 7px 0;         
+  line-height: 1.5;
+}
+
+.customers p{
+  padding-left: 8%;
+  margin: 7px 0;             
+  line-height: 1.5;            
+}
