@@ -160,7 +160,7 @@ body {
   align-items: flex-start;
 }
 
-a {
+.grid a {
   text-decoration: none;
 }
 
