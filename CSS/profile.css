@@ -392,7 +392,7 @@ height: 300%;
 
 .address {
     padding: 15px 20px;
-    color: #FF69B4;
+    color: rgba(229, 101, 152, 1);
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -477,7 +477,7 @@ height: 300%;
 }
 
 .total-price {
-    color: #FF69B4;
+    color: rgba(229, 101, 152, 1);
     font-weight: bold;
 }
 
