@@ -1,22 +1,38 @@
-
 document.addEventListener('DOMContentLoaded', function() {
+  // Получаем все необходимые элементы
+  const ordersLink = document.getElementById('orders-link');
+  const profileLink = document.getElementById('profile-link');
+  const profileContent = document.getElementById('profile-content');
+  const ordersContent = document.getElementById('orders-content');
 
-  const ordersLink = document.querySelector('.sidebar ul li:first-child a'); 
-  const profileContent = document.querySelector('.profile-content'); 
-  const ordersContent = document.getElementById('orders-content'); 
-
-
-  ordersLink.addEventListener('click', function(event) {
-    event.preventDefault(); 
-
-
+  // Функция для скрытия всех контейнеров
+  function hideAllContent() {
     profileContent.style.display = 'none';
+    ordersContent.style.display = 'none';
+  }
+
+  // Обработчик для ссылки «Заказы»
+  ordersLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    hideAllContent();
     ordersContent.style.display = 'block';
-
-
-    console.log('Клик обработан. Профиль скрыт, заказы показаны.');
+    console.log('Отображены заказы');
   });
+
+  // Обработчик для имени «Анна»
+  profileLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    hideAllContent();
+    profileContent.style.display = 'block';
+    console.log('Отображён профиль');
+  });
+
+  // При загрузке страницы показываем профиль по умолчанию
+  hideAllContent();
+  profileContent.style.display = 'block';
 });
+
+
 
 
 
