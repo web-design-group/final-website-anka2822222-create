@@ -2,19 +2,17 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/profile.css">
     <title>Профиль</title>
    
 
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-
-
 </head>
  
 
 <body>
   <script src="script.js"></script>
-
 <header class="header">
       <div class="logo">
         <a href="index.html">
@@ -36,21 +34,13 @@
       <div class="actions">
         <input type="text" placeholder="Поиск">
         <div class="icons">
-          <img src="профиль.svg">
-          <img src="Корзина.svg">
+          <a href= "profile.html"><img src="профиль.svg"></a> 
+          <a href= "корзина.html"><img src="Корзина.svg"></a>
           <a href="3page.htm"><img src="избранное.svg"></a>
         </div>
       </div>
   </div>
-</header>
-
-
-
-
-
-
-
-
+    </header>
 
 
 
@@ -59,14 +49,13 @@
   
   <div class="sidebar">
     <div class="user-card">
-      <div class="user-name">
-        <span class="icon"><img class="iconprofile" src="профиль.svg" alt=""></span>
-        Анна
-      </div>
+   <div id="profile-link" class="user-name">
+  <span class="icon"><img class="iconprofile" src="профиль.svg" alt=""></span>
+  Анна
+</div>
 
      
       <ul>
-       
        <div class="icon1"> 
         <li>
   <span class="icon"><img src="заказы.svg" alt=""></span>
@@ -76,7 +65,7 @@
         </div>
 
         <div class="icon2">
-        <li><span class="icon"><img src="сердечко.svg" alt=""></span> Избранное</li>
+        <li><span class="icon"><img src="сердечко.svg" alt=""></span> <a href="3page.htm">Избранное</a></li>
         </div>
 
         <div class="icon3">
@@ -98,7 +87,7 @@
 
         <div class="all">
         <div class="address">
-            <span class="icon"> <img src=""></span> г. Ижевск, ул. 40 лет Победы, 16
+            <span class="icon"> <img src="местоположение1.svg"></span> г. Ижевск, ул. 40 лет Победы, 16
         </div>
         <div class="order-item">
             <div class="order-image">
@@ -142,7 +131,7 @@
 
 
   
-  <div class="profile-content">
+  <div id="profile-content" class="profile-content">
 
       <div class="profile-header">
         Профиль
@@ -172,6 +161,10 @@
     </div>
   </div>
 </div>
+</body>
+
+
+
 
 
 <footer class="footer">
@@ -203,7 +196,7 @@
 
 
 
-</body>
+
 
 
 </html>
