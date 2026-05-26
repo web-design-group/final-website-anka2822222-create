@@ -292,14 +292,18 @@ body {
   width: 250px;
 }
 
-.company p{
+.company a{
   padding-left: 13%;
   margin: 7px 0;         
   line-height: 1.5;
 }
 
-.customers p{
+.customers a{
   padding-left: 8%;
   margin: 7px 0;             
   line-height: 1.5;            
+}
+.footer a,
+.footer a:hover {
+    text-decoration: none;
 }
