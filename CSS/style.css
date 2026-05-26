@@ -234,76 +234,30 @@ body {
   font-size: 20px
 }
 
-.footer {
-  display: flex;
-  justify-content: column;
-  width: 94%;
-  gap: 150px;
-  height: 300px;
-  padding: 15px 30px;
-  border-radius: 77px;
-  margin-left: 13px;;
-  margin-top: 50px;
-  transform: scale(0.75);
-  background: rgba(245, 170, 203, 1);
-  color: rgba(65, 65, 65, 1);
-  font-family: 'Comfortaa';
-  font-size: 24px;
-}
-.public {
-  display: flex;
-  justify-content: space-between;
-  width: 185px;
-  height: 120px;
+<footer class="footer">
+  <div class="social">
+    <div class="public">
+      <img src="вк.svg">
+      <img src="телеграм.svg">
+    </div>
+    <p>+7 800 XX XX XX</p>
+    <img src="обратная связь.svg">
+  </div>
 
-}
-.public img {
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-}
+  <div class="customers">
+    <img src="покупателям.svg">
+      <div class="news">
+        <p>Новости</p>
+        <p>Оплата и доставка</p>
+        <p>Возврат и гарантия</p>
+        <p>FAQ</p>
+      </div>
+  </div>
 
-.social {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 20px;
-  margin-left: 60px;
-  height: 240px;
-  color: white;
-  font-family: 'a_FuturaRound';
-}
+  <div class="company">
+    <img src="компания.svg">
+    <p>О нас</p>
+    <p>Контакты</p>
+  </div>
+</footer>
 
-.company {
-  margin-top: 20px;
-  width: 150px;
-}
-
-.company img {
-  width: 250px;
-}
-
-.customers {
-  margin-top: 20px;
-  width: 350px;
-}
-
-.customers img {
-  width: 250px;
-}
-
-.company a{
-  padding-left: 13%;
-  margin: 7px 0;         
-  line-height: 1.5;
-}
-
-.customers a{
-  padding-left: 8%;
-  margin: 7px 0;             
-  line-height: 1.5;            
-}
-.footer a,
-.footer a:hover {
-    text-decoration: none;
-}
