@@ -427,13 +427,13 @@ height: 300%;
 }
 
 .order-details h2 {
-    color: #FF69B4;
+    color: rgba(229, 101, 152, 1);
     font-size: 18px;
     margin-bottom: 5px;
 }
 
 .order-details p {
-    color: #666;
+    color: rgba(229, 101, 152, 1);
     font-size: 14px;
     margin-bottom: 5px;
 }
