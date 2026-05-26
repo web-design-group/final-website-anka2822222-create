@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Манга магазин</title>
   <link rel="stylesheet" href="CSS/style3page.css">
+  <link rel="stylesheet" href="CSS/window.css">
 </head>
 
 <body>
@@ -46,7 +47,35 @@
                     <p>Том 26. Хадзимэ Исаяма</p>
                     <div class="bottom">
                         <span>1199 ₽</span>
-                        <button>В корзину</button>
+                        <a href="#modal"><button>В корзину</button></a>
+          </div>
+      </div>
+
+      <div class="modal" id="modal">
+    <div class="modal-dialog">
+        <div class="content">
+            <div class="headd">
+                <h2>Товар добавлен в корзину!</h2>
+                <a href="#"><img src="крест.svg"></a>
+            </div>
+            
+            <div class="container1">
+                <div class="item-card">
+                    <img src="атака титанов.png" alt="Атака титанов">
+                    <div class="count"><img src="колво.svg"></div>
+                </div>
+                <div class="box">
+                  <div class="container2">
+                  <div class="name">Атака титанов</div>
+                    <div class="desc">Том 26. Хадзиме Исаяма</div>
+                    <div class="price">1199 ₽</div>
+                </div>
+                    <div class="container3">
+                    <a href="корзина.html"><button class="modal-btn">В корзине</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
                     </div>
             </div>
 
