@@ -439,7 +439,7 @@ height: 300%;
 }
 
 .price {
-    color: #FF69B4;
+    color: rgba(229, 101, 152, 1);
     font-weight: bold;
     font-size: 16px;
 }
