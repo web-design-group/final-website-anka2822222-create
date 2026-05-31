@@ -346,6 +346,10 @@ body {
   font-size: 20px
 }
 
+.card a {
+    text-decoration: none;
+}
+
 .footer {
   display: flex;
   justify-content: column;
